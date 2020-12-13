@@ -1,13 +1,6 @@
-:root {
-  --blue-color: #85ccc5;
-  --red--color: #e39281;
-  --yellow--color: #f8cb6e;
-}
-
 /*====================
-Font Declaration
+Font Css starts.
 ====================*/
-
 @font-face {
   font-family: "AmaticSC-bold";
   src: url(../font/AmaticSC-Bold.ttf);
@@ -64,19 +57,258 @@ Font Declaration
   font-weight: 400;
 }
 
-/*
-font-family: "AmaticSC-bold";
-font-family: "Heebo-regular";
-font-family: "Montserrat-bold";
-font-family: "Nunito-bold";
-font-family: "Nunito-semibold";
-font-family: "OpenSans-bold";
-font-family: "OpenSans-light";
-font-family: "OpenSans-regular";
-*/
-
-p {
-  font-family: "OpenSans-light";
-  font-size: 50px;
-  color: var(--blue-color);
+/*====================
+Font Css starts.
+====================*/
+/*====================
+Default Css starts.
+====================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+.col-25 {
+  width: 25%;
+  float: left;
+  padding: 0px 15px;
+}
+
+.col-33 {
+  width: 33.33%;
+  float: left;
+  padding: 0px 15px;
+}
+
+.col-50 {
+  width: 50%;
+  float: left;
+  padding: 0px 15px;
+}
+
+.col-75 {
+  width: 75%;
+  float: left;
+  padding: 0px 15px;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container::before, .container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #f8cb6e;
+  display: inline-block;
+  padding: 20px 50px;
+}
+
+.btn a {
+  font-family: "OpenSans-bold";
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+}
+
+/*====================
+Default Css starts.
+====================*/
+/*====================
+Header Css starts.
+====================*/
+header {
+  background-color: #85ccc5;
+}
+
+.menu .col-25 {
+  padding: 20px;
+}
+
+.menu .col-75 {
+  padding: 15px;
+}
+
+.menu__logo {
+  height: 26px;
+}
+
+.option {
+  float: right;
+}
+
+.option__item {
+  padding: 10px;
+}
+
+.option__item__link {
+  font-family: "OpenSans-bold";
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+}
+
+/*====================
+Header Css starts.
+====================*/
+/*====================
+Hero Css starts.
+====================*/
+.hero {
+  background-image: url("../images/header-bg-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero__content {
+  margin: 120px 0px;
+}
+
+.hero__content h1 {
+  font-family: "Nunito-bold";
+  font-size: 90px;
+  line-height: 90px;
+  color: #85ccc5;
+  text-shadow: #56585b 2px 3px;
+}
+
+.hero__content h6 {
+  font-family: "OpenSans-light";
+  font-size: 20px;
+  line-height: 34px;
+  color: #555555;
+  margin: 30px 0px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider__img {
+  width: 80%;
+  position: absolute;
+  right: 120;
+  top: 120px;
+}
+
+/*====================
+Hero Css starts.
+====================*/
+/*====================
+Category Css starts.
+====================*/
+.category {
+  position: relative;
+  top: -50px;
+}
+
+.category .col-33 {
+  padding: 0px;
+}
+
+.box {
+  width: 100%;
+  height: 280px;
+}
+
+.box h3 {
+  font-family: "AmaticSC-bold";
+  font-size: 54px;
+  line-height: 60px;
+  color: white;
+  text-shadow: 3px 3px #594b2b;
+  margin: 25px 0px;
+}
+
+.box p {
+  font-family: "Nunito-semibold";
+  font-size: 17px;
+  line-height: 28px;
+  color: white;
+}
+
+.one {
+  background: url(../images/catagory-box-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.one .box__details {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 25px;
+}
+
+.two {
+  background: url(../images/catagory-box-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.two .box__details {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 25px;
+}
+
+.three {
+  background: url(../images/catagory-box-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.three .box__details {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding: 25px;
+}
+
+/*====================
+Category Css Ends.
+====================*/
+/*
+  font-family: "AmaticSC-bold";
+  font-family: "Heebo-regular";
+  font-family: "Montserrat-bold";
+  font-family: "Nunito-bold";
+  font-family: "Nunito-semibold";
+  font-family: "OpenSans-bold";
+  font-family: "OpenSans-light";
+  font-family: "OpenSans-regular";
+  */
+/*# sourceMappingURL=style.css.map */
