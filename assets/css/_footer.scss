@@ -1,0 +1,68 @@
+/*====================
+Footer Css starts.
+====================*/
+
+
+footer {
+    background-color: #F2F1ED;
+    padding-bottom: 30px;
+
+    .container {
+        border-top: 1px solid rgba(0, 0, 0, 0.103);
+        padding-top: 30px;
+    }
+
+    .copyright {
+        p {
+            font-family: "OpenSans-regular";
+            font-size: 12px;
+            line-height: 25px;
+            color: #555555;
+        }
+
+        span {
+            color: #313131;
+        }
+    }
+
+    .social {
+        float: right;
+
+        &__link {
+            font-family: "OpenSans-regular";
+            font-size: 12px;
+            line-height: 25px;
+            color: #313131;
+            margin-left: 20px;
+
+            &--color {
+                color: #555555;
+            }
+
+            .fab {
+                margin-left: 10px;
+                font-size: 14px;
+            }
+
+            .fa-twitter {
+                color: rgb(85, 172, 239);
+            }
+
+            .fa-facebook-f {
+                color: rgb(59, 89, 153);
+            }
+
+            .fa-google-plus-g {
+                color: rgb(221, 76, 57);
+            }
+
+            .fa-instagram {
+                color: rgb(228, 65, 96);
+            }
+        }
+    }
+}
+
+/*====================
+Footer Css ends.
+====================*/

@@ -1,0 +1,70 @@
+/*====================
+Details Css starts.
+====================*/
+
+.details {
+  background: url('../images/footer.jpg');
+  margin-bottom: 0;
+  padding-bottom: 30px;
+
+  .address {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &__heading {
+      font-family: "Nunito-bold";
+      font-size: 20px;
+      line-height: 30px;
+      color: #313131;
+      padding-top: 100px;
+      margin-bottom: 20px;
+    }
+
+    &__para {
+      font-family: "OpenSans-regular";
+      font-size: 15px;
+      line-height: 25px;
+      color: #888888;
+      margin-bottom: 20px;
+    }
+
+    &__details {
+      font-family: "OpenSans-regular";
+      font-size: 14px;
+      line-height: 25px;
+      color: #313131;
+      display: block;
+
+      i {
+        margin: 10px 20px 10px 0px;
+      }
+    }
+
+    &__topic {
+      font-family: "OpenSans-regular";
+      font-size: 15px;
+      line-height: 20px;
+      color: #313131;
+
+      &--margin {
+        margin-bottom: 20px;
+      }
+    }
+
+    &__writer {
+      font-family: "OpenSans-regular";
+      font-size: 13px;
+      line-height: 20px;
+      color: #888888;
+      margin-bottom: 20px;
+    }
+
+    &__img {
+      width: 100%;
+    }
+  }
+}
+
+/*====================
+Details Css Ends.
+====================*/

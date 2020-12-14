@@ -665,4 +665,175 @@ Cousrse Css starts.
 /*====================
 Cousrse Css ends.
 ====================*/
+/*====================
+Form Css starts.
+====================*/
+.form {
+  background: url("../images/footer-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-bottom: 400px;
+  margin-bottom: 0px;
+}
+
+.form .admission__heading {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.form .admission__heading h1 {
+  font-family: "Nunito-bold";
+  font-size: 40px;
+  line-height: 55px;
+  color: #434343;
+  margin: 25px 0px;
+}
+
+.form .admission__heading input {
+  font-family: "OpenSans-regular";
+  padding: 20px 70px;
+  border: 1px solid #43434325;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #434343;
+}
+
+/*====================
+Form Css ends.
+====================*/
+/*====================
+Details Css starts.
+====================*/
+.details {
+  background: url("../images/footer.jpg");
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+
+.details .address {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.details .address__heading {
+  font-family: "Nunito-bold";
+  font-size: 20px;
+  line-height: 30px;
+  color: #313131;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.details .address__para {
+  font-family: "OpenSans-regular";
+  font-size: 15px;
+  line-height: 25px;
+  color: #888888;
+  margin-bottom: 20px;
+}
+
+.details .address__details {
+  font-family: "OpenSans-regular";
+  font-size: 14px;
+  line-height: 25px;
+  color: #313131;
+  display: block;
+}
+
+.details .address__details i {
+  margin: 10px 20px 10px 0px;
+}
+
+.details .address__topic {
+  font-family: "OpenSans-regular";
+  font-size: 15px;
+  line-height: 20px;
+  color: #313131;
+}
+
+.details .address__topic--margin {
+  margin-bottom: 20px;
+}
+
+.details .address__writer {
+  font-family: "OpenSans-regular";
+  font-size: 13px;
+  line-height: 20px;
+  color: #888888;
+  margin-bottom: 20px;
+}
+
+.details .address__img {
+  width: 100%;
+}
+
+/*====================
+Details Css Ends.
+====================*/
+/*====================
+Footer Css starts.
+====================*/
+footer {
+  background-color: #F2F1ED;
+  padding-bottom: 30px;
+}
+
+footer .container {
+  border-top: 1px solid rgba(0, 0, 0, 0.103);
+  padding-top: 30px;
+}
+
+footer .copyright p {
+  font-family: "OpenSans-regular";
+  font-size: 12px;
+  line-height: 25px;
+  color: #555555;
+}
+
+footer .copyright span {
+  color: #313131;
+}
+
+footer .social {
+  float: right;
+}
+
+footer .social__link {
+  font-family: "OpenSans-regular";
+  font-size: 12px;
+  line-height: 25px;
+  color: #313131;
+  margin-left: 20px;
+}
+
+footer .social__link--color {
+  color: #555555;
+}
+
+footer .social__link .fab {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+footer .social__link .fa-twitter {
+  color: #55acef;
+}
+
+footer .social__link .fa-facebook-f {
+  color: #3b5999;
+}
+
+footer .social__link .fa-google-plus-g {
+  color: #dd4c39;
+}
+
+footer .social__link .fa-instagram {
+  color: #e44160;
+}
+
+/*====================
+Footer Css ends.
+====================*/
 /*# sourceMappingURL=style.css.map */
