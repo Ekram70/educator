@@ -141,7 +141,8 @@ section {
 }
 
 section {
-  margin-bottom: 130px;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .btn {
@@ -345,7 +346,7 @@ Services Css starts.
 }
 
 /*====================
-Services Css starts.
+Services Css ends.
 ====================*/
 /*====================
 Blog Css starts.
@@ -362,7 +363,7 @@ Blog Css starts.
 }
 
 .blog .col-50 {
-  padding: 40px;
+  padding: 0px 40px;
   float: right;
 }
 
@@ -501,5 +502,167 @@ Event Css starts.
 
 /*====================
 Event Css ends.
+====================*/
+/*====================
+Video Css starts.
+====================*/
+.video {
+  background: url("../images/video-birds.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.video .left {
+  position: relative;
+}
+
+.video .box {
+  padding: 25px 30px;
+}
+
+.video .box__bg {
+  width: 100%;
+}
+
+.video .box__icon {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.video .box h1 {
+  font-family: "Nunito-bold";
+  font-size: 45px;
+  line-height: 45px;
+  color: #434343;
+}
+
+.video .box p {
+  font-family: "OpenSans-regular";
+  font-size: 18px;
+  line-height: 30px;
+  color: #888888;
+}
+
+.video .box__details {
+  margin: 30px 0px;
+  padding-right: 50px;
+}
+
+.video .box__highlight {
+  display: inline-block;
+  width: 40%;
+}
+
+.video .box__number {
+  font-family: "Nunito-bold";
+  font-size: 48px;
+  line-height: 48px;
+  color: #f8cb6e;
+}
+
+/*====================
+Video Css ends.
+====================*/
+/*====================
+Cousrse Css starts.
+====================*/
+.course__heading {
+  text-align: center;
+  width: 70%;
+  margin: 0px auto 100px;
+}
+
+.course__heading h1 {
+  font-family: "Nunito-bold";
+  font-size: 47px;
+  line-height: 55px;
+  color: #434343;
+  margin: 25px 0px;
+}
+
+.course__heading p {
+  font-family: "OpenSans-regular";
+  font-size: 18px;
+  line-height: 33px;
+  color: #888888;
+}
+
+.course .col-33 {
+  padding: 20px;
+}
+
+.course .box {
+  border: 1px solid #43434330;
+}
+
+.course .box__img img {
+  width: 100%;
+}
+
+.course .box__details {
+  padding: 25px;
+  position: relative;
+}
+
+.course .box__details h1 {
+  font-family: "Nunito-bold";
+  font-size: 25px;
+  line-height: 35px;
+  color: #434343;
+  display: inline-block;
+}
+
+.course .box__details span {
+  font-family: "OpenSans-bold";
+  font-size: 13px;
+  line-height: 26px;
+  color: white;
+  background-color: #f8cb6e;
+  padding: 5px 10px;
+  position: absolute;
+  right: 20px;
+}
+
+.course .box__details h6 {
+  font-family: "OpenSans-regular";
+  font-size: 14px;
+  line-height: 26px;
+  color: #b9b9b9;
+}
+
+.course .box__details p {
+  font-family: "OpenSans-regular";
+  font-size: 15px;
+  line-height: 25px;
+  color: #888888;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.course .box__bottom {
+  font-family: "OpenSans-regular";
+  font-size: 15px;
+  line-height: 25px;
+  color: #888888;
+  border-top: 1px solid #43434330;
+  padding: 15px 25px;
+}
+
+.course .box__bottom i {
+  margin-right: 5px;
+}
+
+.course .box__bottom .fa-clock {
+  margin-left: 20px;
+}
+
+/*====================
+Cousrse Css ends.
 ====================*/
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,55 @@
+/*====================
+Video Css starts.
+====================*/
+
+.video {
+  background: url("../images/video-birds.png");
+  @include background();
+  padding: 100px;
+  .left {
+    position: relative;
+  }
+  .box {
+    padding: 25px 30px;
+    &__bg {
+      width: 100%;
+    }
+    &__icon {
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1 {
+      font-family: "Nunito-bold";
+      font-size: 45px;
+      line-height: 45px;
+      color: #434343;
+    }
+    p {
+      font-family: "OpenSans-regular";
+      font-size: 18px;
+      line-height: 30px;
+      color: #888888;
+    }
+    &__details {
+      margin: 30px 0px;
+      padding-right: 50px;
+    }
+    &__highlight {
+      display: inline-block;
+      width: 40%;
+    }
+    &__number {
+      font-family: "Nunito-bold";
+      font-size: 48px;
+      line-height: 48px;
+      color: $yellow-color;
+    }
+  }
+}
+
+/*====================
+Video Css ends.
+====================*/

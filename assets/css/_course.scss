@@ -1,0 +1,88 @@
+/*====================
+Cousrse Css starts.
+====================*/
+
+.course {
+  &__heading {
+    text-align: center;
+    width: 70%;
+    margin: 0px auto 100px;
+    h1 {
+      font-family: "Nunito-bold";
+      font-size: 47px;
+      line-height: 55px;
+      color: #434343;
+      margin: 25px 0px;
+    }
+    p {
+      font-family: "OpenSans-regular";
+      font-size: 18px;
+      line-height: 33px;
+      color: #888888;
+    }
+  }
+  .col-33 {
+    padding: 20px;
+  }
+  .box {
+    border: 1px solid #43434330;
+    &__img {
+      img {
+        width: 100%;
+      }
+    }
+    &__details {
+      padding: 25px;
+      position: relative;
+      h1 {
+        font-family: "Nunito-bold";
+        font-size: 25px;
+        line-height: 35px;
+        color: #434343;
+        display: inline-block;
+      }
+      span {
+        font-family: "OpenSans-bold";
+        font-size: 13px;
+        line-height: 26px;
+        color: white;
+        background-color: $yellow-color;
+        padding: 5px 10px;
+        position: absolute;
+        right: 20px;
+      }
+      h6 {
+        font-family: "OpenSans-regular";
+        font-size: 14px;
+        line-height: 26px;
+        color: #b9b9b9;
+      }
+      p {
+        font-family: "OpenSans-regular";
+        font-size: 15px;
+        line-height: 25px;
+        color: #888888;
+        padding-right: 20px;
+        margin-top: 20px;
+      }
+    }
+    &__bottom {
+      font-family: "OpenSans-regular";
+      font-size: 15px;
+      line-height: 25px;
+      color: #888888;
+      border-top: 1px solid #43434330;
+      padding: 15px 25px;
+      i {
+        margin-right: 5px;
+      }
+      .fa-clock {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+/*====================
+Cousrse Css ends.
+====================*/
