@@ -3,40 +3,39 @@ Hero Css starts.
 ====================*/
 
 .hero {
-    background-image: url('../images/header-bg-image.jpg');
-    @include background();
-    background-size: 100% 100%;
+  background-image: url("../images/header-bg-image.jpg");
+  @include background();
+  background-size: 100% 100%;
 
-    &__content {
-        margin: 120px 0px;
+  &__content {
+    margin: 120px 0px;
 
-        h1 {
-            font-family: "Nunito-bold";
-            font-size: 90px;
-            line-height: 90px;
-            color: $blue-color;
-            text-shadow: rgb(86, 88, 91) 2px 3px;
-        }
-
-        h6 {
-            font-family: "OpenSans-light";
-            font-size: 20px;
-            line-height: 34px;
-            color: #555555;
-            margin: 30px 0px;
-        }
+    h1 {
+      font-family: "Nunito-bold";
+      font-size: 90px;
+      line-height: 90px;
+      color: $blue-color;
+      text-shadow: rgb(86, 88, 91) 2px 3px;
     }
-}
 
-.slider {
+    h6 {
+      font-family: "OpenSans-light";
+      font-size: 20px;
+      line-height: 34px;
+      color: #555555;
+      margin: 30px 0px;
+    }
+  }
+  .slider {
     position: relative;
 
     &__img {
-        width: 80%;
-        position: absolute;
-        right: 120;
-        top: 120px;
+      width: 80%;
+      position: absolute;
+      right: 120;
+      top: 120px;
     }
+  }
 }
 
 /*====================

@@ -1,0 +1,92 @@
+/*====================
+Event Css starts.
+====================*/
+
+.event {
+  &__heading {
+    text-align: center;
+    width: 70%;
+    margin: 0px auto 100px;
+    h1 {
+      font-family: "Nunito-bold";
+      font-size: 47px;
+      line-height: 55px;
+      color: #434343;
+      margin: 25px 0px;
+    }
+    p {
+      font-family: "OpenSans-regular";
+      font-size: 18px;
+      line-height: 33px;
+      color: #888888;
+    }
+  }
+
+  .box {
+    padding: 25px;
+    &__img {
+      width: 100%;
+    }
+    p {
+      background-color: $yellow-color;
+      font-family: "Nunito-bold";
+      font-size: 25px;
+      line-height: 25px;
+      color: white;
+      text-align: center;
+      display: inline-block;
+      padding: 15px 25px;
+      span {
+        display: block;
+        font-family: "Nunito-semibold";
+        font-size: 17px;
+        line-height: 17px;
+      }
+    }
+    &__bottom {
+      h1 {
+        font-family: "Nunito-bold";
+        font-size: 25px;
+        line-height: 35px;
+        color: #434343;
+        margin-bottom: 20px;
+        padding: 20px 0px;
+        border-bottom: 1px solid #80808060;
+      }
+      span {
+        display: block;
+        color: #808080;
+        font-family: "OpenSans-regular";
+        font-size: 14px;
+        line-height: 26px;
+      }
+      i {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  @mixin topleft() {
+    .box__top {
+      position: relative;
+      p {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+    }
+  }
+  .one {
+    @include topleft();
+  }
+  .two {
+    @include topleft();
+  }
+  .three {
+    @include topleft();
+  }
+}
+
+/*====================
+Event Css ends.
+====================*/

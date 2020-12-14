@@ -3,36 +3,36 @@ Header Css starts.
 ====================*/
 
 header {
-    background-color: $blue-color;
-}
+  background-color: $blue-color;
 
-.menu {
+  .menu {
     .col-25 {
-        padding: 20px;
+      padding: 20px;
     }
 
     .col-75 {
-        padding: 15px;
+      padding: 15px;
     }
 
     &__logo {
-        height: 26px;
+      height: 26px;
     }
-}
+  }
 
-.option {
+  .option {
     float: right;
 
     &__item {
-        padding: 10px;
+      padding: 10px;
 
-        &__link {
-            font-family: "OpenSans-bold";
-            text-transform: uppercase;
-            font-size: 14px;
-            color: white;
-        }
+      &__link {
+        font-family: "OpenSans-bold";
+        text-transform: uppercase;
+        font-size: 14px;
+        color: white;
+      }
     }
+  }
 }
 
 /*====================

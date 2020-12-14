@@ -2,12 +2,6 @@ $blue-color: #85ccc5;
 $red-color: #e39281;
 $yellow-color: #f8cb6e;
 
-@import '_font';
-@import '_default';
-@import '_header';
-@import '_hero';
-@import '_category';
-
 /*
   font-family: "AmaticSC-bold";
   font-family: "Heebo-regular";
@@ -18,3 +12,12 @@ $yellow-color: #f8cb6e;
   font-family: "OpenSans-light";
   font-family: "OpenSans-regular";
   */
+
+@import "_font";
+@import "_default";
+@import "_header";
+@import "_hero";
+@import "_category";
+@import "_services";
+@import "_blog";
+@import "_event";

@@ -1,0 +1,28 @@
+/*====================
+Services Css starts.
+====================*/
+
+.services {
+  .box {
+    &__heading {
+      font-family: "Nunito-bold";
+      font-size: 25px;
+      line-height: 30px;
+      color: #434343;
+      display: inline-block;
+      margin-left: 20px;
+    }
+    &__details {
+      font-family: "OpenSans-regular";
+      font-size: 15px;
+      line-height: 25px;
+      color: #888888;
+      padding: 20px 0px;
+      width: 85%;
+    }
+  }
+}
+
+/*====================
+Services Css starts.
+====================*/

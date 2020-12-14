@@ -1,3 +1,13 @@
+/*
+  font-family: "AmaticSC-bold";
+  font-family: "Heebo-regular";
+  font-family: "Montserrat-bold";
+  font-family: "Nunito-bold";
+  font-family: "Nunito-semibold";
+  font-family: "OpenSans-bold";
+  font-family: "OpenSans-light";
+  font-family: "OpenSans-regular";
+  */
 /*====================
 Font Css starts.
 ====================*/
@@ -58,7 +68,7 @@ Font Css starts.
 }
 
 /*====================
-Font Css starts.
+Font Css ends.
 ====================*/
 /*====================
 Default Css starts.
@@ -76,38 +86,41 @@ body {
   height: 100%;
 }
 
+::-moz-selection {
+  background-color: #f8cb6e;
+}
+
+::selection {
+  background-color: #f8cb6e;
+}
+
 .col-25 {
   width: 25%;
   float: left;
-  padding: 0px 15px;
 }
 
 .col-33 {
   width: 33.33%;
   float: left;
-  padding: 0px 15px;
 }
 
 .col-50 {
   width: 50%;
   float: left;
-  padding: 0px 15px;
 }
 
 .col-75 {
   width: 75%;
   float: left;
-  padding: 0px 15px;
 }
 
 .container {
   width: 1120px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .container::before, .container::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -119,6 +132,16 @@ ul li {
 
 a {
   text-decoration: none;
+}
+
+header,
+footer,
+section {
+  overflow: hidden;
+}
+
+section {
+  margin-bottom: 130px;
 }
 
 .btn {
@@ -145,27 +168,27 @@ header {
   background-color: #85ccc5;
 }
 
-.menu .col-25 {
+header .menu .col-25 {
   padding: 20px;
 }
 
-.menu .col-75 {
+header .menu .col-75 {
   padding: 15px;
 }
 
-.menu__logo {
+header .menu__logo {
   height: 26px;
 }
 
-.option {
+header .option {
   float: right;
 }
 
-.option__item {
+header .option__item {
   padding: 10px;
 }
 
-.option__item__link {
+header .option__item__link {
   font-family: "OpenSans-bold";
   text-transform: uppercase;
   font-size: 14px;
@@ -206,11 +229,11 @@ Hero Css starts.
   margin: 30px 0px;
 }
 
-.slider {
+.hero .slider {
   position: relative;
 }
 
-.slider__img {
+.hero .slider__img {
   width: 80%;
   position: absolute;
   right: 120;
@@ -224,20 +247,19 @@ Hero Css starts.
 Category Css starts.
 ====================*/
 .category {
-  position: relative;
-  top: -50px;
+  margin-top: -200px;
 }
 
 .category .col-33 {
   padding: 0px;
 }
 
-.box {
+.category .box {
   width: 100%;
   height: 280px;
 }
 
-.box h3 {
+.category .box h3 {
   font-family: "AmaticSC-bold";
   font-size: 54px;
   line-height: 60px;
@@ -246,14 +268,14 @@ Category Css starts.
   margin: 25px 0px;
 }
 
-.box p {
+.category .box p {
   font-family: "Nunito-semibold";
   font-size: 17px;
   line-height: 28px;
   color: white;
 }
 
-.one {
+.category .one {
   background: url(../images/catagory-box-1.jpg);
   background-position: center;
   background-size: cover;
@@ -261,14 +283,14 @@ Category Css starts.
   position: relative;
 }
 
-.one .box__details {
+.category .one .box__details {
   position: absolute;
   left: 0px;
   bottom: 0px;
   padding: 25px;
 }
 
-.two {
+.category .two {
   background: url(../images/catagory-box-2.png);
   background-position: center;
   background-size: cover;
@@ -276,14 +298,14 @@ Category Css starts.
   position: relative;
 }
 
-.two .box__details {
+.category .two .box__details {
   position: absolute;
   left: 0px;
   bottom: 0px;
   padding: 25px;
 }
 
-.three {
+.category .three {
   background: url(../images/catagory-box-3.jpg);
   background-position: center;
   background-size: cover;
@@ -291,7 +313,7 @@ Category Css starts.
   position: relative;
 }
 
-.three .box__details {
+.category .three .box__details {
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -301,14 +323,183 @@ Category Css starts.
 /*====================
 Category Css Ends.
 ====================*/
-/*
-  font-family: "AmaticSC-bold";
-  font-family: "Heebo-regular";
-  font-family: "Montserrat-bold";
+/*====================
+Services Css starts.
+====================*/
+.services .box__heading {
   font-family: "Nunito-bold";
-  font-family: "Nunito-semibold";
-  font-family: "OpenSans-bold";
-  font-family: "OpenSans-light";
+  font-size: 25px;
+  line-height: 30px;
+  color: #434343;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.services .box__details {
   font-family: "OpenSans-regular";
-  */
+  font-size: 15px;
+  line-height: 25px;
+  color: #888888;
+  padding: 20px 0px;
+  width: 85%;
+}
+
+/*====================
+Services Css starts.
+====================*/
+/*====================
+Blog Css starts.
+====================*/
+.blog {
+  background: url("../images/blog-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: -250px 0px;
+  padding: 100px;
+  margin-bottom: 0px;
+}
+
+.blog .col-50 {
+  padding: 40px;
+  float: right;
+}
+
+.blog .post {
+  background-color: #f8cb6e;
+  padding: 50px;
+}
+
+.blog .post__heading {
+  font-family: "AmaticSC-bold";
+  font-size: 54px;
+  line-height: 60px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 3px 3px #594b2b;
+  margin-bottom: 40px;
+}
+
+.blog .post__para {
+  font-family: "OpenSans-regular";
+  font-size: 17px;
+  line-height: 23px;
+  color: #313131;
+  margin-bottom: 20px;
+}
+
+.blog .post__btn {
+  background-color: white;
+  margin-top: 40px;
+}
+
+/*====================
+Blog Css ends.
+====================*/
+/*====================
+Event Css starts.
+====================*/
+.event__heading {
+  text-align: center;
+  width: 70%;
+  margin: 0px auto 100px;
+}
+
+.event__heading h1 {
+  font-family: "Nunito-bold";
+  font-size: 47px;
+  line-height: 55px;
+  color: #434343;
+  margin: 25px 0px;
+}
+
+.event__heading p {
+  font-family: "OpenSans-regular";
+  font-size: 18px;
+  line-height: 33px;
+  color: #888888;
+}
+
+.event .box {
+  padding: 25px;
+}
+
+.event .box__img {
+  width: 100%;
+}
+
+.event .box p {
+  background-color: #f8cb6e;
+  font-family: "Nunito-bold";
+  font-size: 25px;
+  line-height: 25px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 25px;
+}
+
+.event .box p span {
+  display: block;
+  font-family: "Nunito-semibold";
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.event .box__bottom h1 {
+  font-family: "Nunito-bold";
+  font-size: 25px;
+  line-height: 35px;
+  color: #434343;
+  margin-bottom: 20px;
+  padding: 20px 0px;
+  border-bottom: 1px solid #80808060;
+}
+
+.event .box__bottom span {
+  display: block;
+  color: #808080;
+  font-family: "OpenSans-regular";
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.event .box__bottom i {
+  margin-right: 15px;
+}
+
+.event .one .box__top {
+  position: relative;
+}
+
+.event .one .box__top p {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.event .two .box__top {
+  position: relative;
+}
+
+.event .two .box__top p {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.event .three .box__top {
+  position: relative;
+}
+
+.event .three .box__top p {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+/*====================
+Event Css ends.
+====================*/
 /*# sourceMappingURL=style.css.map */

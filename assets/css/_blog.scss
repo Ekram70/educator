@@ -1,0 +1,43 @@
+/*====================
+Blog Css starts.
+====================*/
+.blog {
+  background: url("../images/blog-bg.jpg");
+  @include background();
+  background-size: 130%;
+  background-position: -250px 0px;
+  padding: 100px;
+  margin-bottom: 0px;
+  .col-50 {
+    padding: 40px;
+    float: right;
+  }
+  .post {
+    background-color: $yellow-color;
+    padding: 50px;
+    &__heading {
+      font-family: "AmaticSC-bold";
+      font-size: 54px;
+      line-height: 60px;
+      color: white;
+      text-transform: uppercase;
+      text-shadow: 3px 3px #594b2b;
+      margin-bottom: 40px;
+    }
+    &__para {
+      font-family: "OpenSans-regular";
+      font-size: 17px;
+      line-height: 23px;
+      color: #313131;
+      margin-bottom: 20px;
+    }
+    &__btn {
+      background-color: white;
+      margin-top: 40px;
+    }
+  }
+}
+
+/*====================
+Blog Css ends.
+====================*/
